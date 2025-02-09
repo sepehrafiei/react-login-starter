@@ -16,8 +16,6 @@ A simple and scalable React login template powered by **Supabase** for authentic
 - **React** (Vite for blazing-fast development)
 - **Supabase** (PostgreSQL + Auth)
 - **React Router** (For navigation)
-- **Tailwind CSS** (Optional, for styling)
-- **ESLint + Prettier** (For clean code)
 
 ## 📦 Installation
 
@@ -25,11 +23,16 @@ A simple and scalable React login template powered by **Supabase** for authentic
    ```sh
    git clone https://github.com/your-username/react-login-template.git
    cd react-login-template
+   ```
 
 2. **Install dependencies**
-npm install
+   ```sh
+   npm install
+   ```
 # or
-yarn install
+  ```sh
+  yarn install
+  ```
 
 3. **Set up Supabase**
 Create an account at Supabase
@@ -38,16 +41,22 @@ Copy your Supabase URL and Anon Key from the dashboard
 
 4. **Configure Environment Variables**
 Create a .env file in the root directory:
+```
 VITE_SUPABASE_URL=your-supabase-url
 VITE_SUPABASE_ANON_KEY=your-anon-key
+```
 
 
 ## 🚀 Running the Project
 
 Start the development server:
+```
 npm run dev
+```
 # or
+```
 yarn dev
+```
 
 ## 🔐 Authentication Setup
 
